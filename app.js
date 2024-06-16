@@ -50,7 +50,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     newContact.addEventListener('click', ()=>{
         newContact.classList.add('hide')
-        editBtn.classList.add('hide')
 
             // Cria os elementos para adição do contato
         const dataProfile = document.createElement('div')
